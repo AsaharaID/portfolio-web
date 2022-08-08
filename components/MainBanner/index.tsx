@@ -18,17 +18,17 @@ export default function MainBanner() {
 							and always learn when I find new things related to it.
 						</p>
 						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
-							<a className="btn-Email" href="#" role="button">
-								<Image src="/img/Email.png" alt="" />
+							<a className="btn-email text-sm" href="#" role="button">
+								<Image src="/img/Email.png" alt="" width={158} height={66} />
 							</a>
-							<a className="btn-linkedin" href="#" role="button">
-								<Image src="/img/linkedin.png" alt="" />
+							<a className="btn-linkedin text-sm" href="#" role="button">
+								<Image src="/img/linkedin.png" alt="" width={66} height={66} />
 							</a>
-							<a className="btn-instagram" href="#" role="button">
-								<Image src="/img/instagram.png" alt="" />
+							<a className="btn-instagram text-sm" href="#" role="button">
+								<Image src="/img/instagram.png" alt="" width={66} height={66} />
 							</a>
-							<a className="btn-github" href="#" role="button">
-								<Image src="/img/githab.png" alt="" />
+							<a className="btn-github text-sm" href="#" role="button">
+								<Image src="/img/githab.png" alt="" width={66} height={66} />
 							</a>
 						</div>
 						<div className="d-flex flex-lg-row flex-column gap-0 ">
@@ -37,14 +37,14 @@ export default function MainBanner() {
 								href="#"
 								role="button"
 							>
-								<Image src="/img/download.png" alt="" /> Download CV
+								<img src="/img/download.png" alt="" /> Download CV
 							</a>
 						</div>
 					</div>
 					<div className="col-lg-6 col-12	 d-lg-block d-none">
 						<div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
 							<div className="position-relative" data-aos="zoom-in">
-								<Image
+								<img
 									src="/img/Archetto.jpg"
 									className="mainbanner-img"
 									alt=""
