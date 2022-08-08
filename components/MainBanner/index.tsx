@@ -19,16 +19,16 @@ export default function MainBanner() {
 						</p>
 						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
 							<a className="btn-email text-sm" href="#" role="button">
-								<img src="/img/Email.png" alt="" />
+								<Image src="/img/Email.png" alt="" />
 							</a>
 							<a className="btn-linkedin text-sm" href="#" role="button">
-								<img src="/img/linkedin.png" alt="" />
+								<Image src="/img/linkedin.png" alt="" />
 							</a>
 							<a className="btn-instagram text-sm" href="#" role="button">
-								<img src="/img/instagram.png" alt="" />
+								<Image src="/img/instagram.png" alt="" />
 							</a>
 							<a className="btn-github text-sm" href="#" role="button">
-								<img src="/img/githab.png" alt="" />
+								<Image src="/img/githab.png" alt="" />
 							</a>
 						</div>
 						<div className="d-flex flex-lg-row flex-column gap-0 ">
@@ -37,14 +37,14 @@ export default function MainBanner() {
 								href="#"
 								role="button"
 							>
-								<img src="/img/download.png" alt="" /> Download CV
+								<Image src="/img/download.png" alt="" /> Download CV
 							</a>
 						</div>
 					</div>
 					<div className="col-lg-6 col-12	 d-lg-block d-none">
 						<div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
 							<div className="position-relative" data-aos="zoom-in">
-								<img
+								<Image
 									src="/img/Archetto.jpg"
 									className="mainbanner-img"
 									alt=""
