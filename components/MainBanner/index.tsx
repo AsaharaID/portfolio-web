@@ -18,16 +18,16 @@ export default function MainBanner() {
 							and always learn when I find new things related to it.
 						</p>
 						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
-							<a className="btn-email text-sm" href="#" role="button">
+							<a className="btn-Email" href="#" role="button">
 								<Image src="/img/Email.png" alt="" />
 							</a>
-							<a className="btn-linkedin text-sm" href="#" role="button">
+							<a className="btn-linkedin" href="#" role="button">
 								<Image src="/img/linkedin.png" alt="" />
 							</a>
-							<a className="btn-instagram text-sm" href="#" role="button">
+							<a className="btn-instagram" href="#" role="button">
 								<Image src="/img/instagram.png" alt="" />
 							</a>
-							<a className="btn-github text-sm" href="#" role="button">
+							<a className="btn-github" href="#" role="button">
 								<Image src="/img/githab.png" alt="" />
 							</a>
 						</div>
