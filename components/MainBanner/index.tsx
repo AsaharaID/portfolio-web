@@ -19,7 +19,7 @@ export default function MainBanner() {
 						</p>
 						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
 							<a className="btn-email text-sm" href="#" role="button">
-								<img src="/img/email.png" alt="" />
+								<img src="/img/Email.png" alt="" />
 							</a>
 							<a className="btn-linkedin text-sm" href="#" role="button">
 								<img src="/img/linkedin.png" alt="" />
