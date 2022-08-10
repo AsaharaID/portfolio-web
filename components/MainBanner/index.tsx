@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function MainBanner() {
 	return (
 		<section className="header pt-lg-60 pb-60">
-			<div className="container-xxl container-fluid">
+			<div className="container-xxl container-fluid" data-aos="fade-up">
 				<div className="row gap-lg-0 gap-1">
 					<div className="col-lg-6 col-12 my-auto">
 						<p className="text-support text-3xl color-palette-6">Hello, I Am</p>

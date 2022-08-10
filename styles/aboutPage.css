@@ -1,5 +1,16 @@
 /** @format */
 
+.about {
+	padding: 50px;
+	margin-top: 10px;
+}
+
+.about .container-fluid {
+	width: 82%;
+	align-items: center;
+	display: block;
+}
+
 .about h2 {
 	font-size: 2.625rem;
 	line-height: 1.5;
@@ -13,12 +24,85 @@
 	position: absolute;
 }
 
+.list-wrapper {
+	position: relative;
+}
+.list-item-wrapper {
+	margin-top: 10px;
+	position: relative;
+}
+.list-bullet {
+	float: left;
+	margin-right: 20px;
+	background: #fbc361;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 100px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+.list-bullet-main {
+	float: left;
+	margin-right: 20px;
+	background: #fbc361;
+	border: 5px solid rgb(255, 255, 255);
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 100px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+.list-item {
+	display: table-row;
+	vertical-align: middle;
+}
+.list-year {
+	font-weight: 800;
+}
+.list-title {
+	font-weight: 700;
+}
+.list-text {
+	font-weight: 400;
+	color: #fbc361;
+}
+.red-line {
+	z-index: 1;
+	width: 5px;
+	height: 217%;
+	position: absolute;
+	left: 12.5px;
+	background-color: #fbc361;
+	border-left: 5px;
+}
+
 /* about item */
 .about .feature-card {
 	background-color: #1c0e02;
 	border-radius: 1.625rem;
-	padding: 1.875rem;
-	margin-right: 16px;
+	padding: 2rem;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	display: block;
+}
+
+.aboutlistDivider {
+	border-top: 4px solid rgba(245, 166, 35, 1);
+	border-radius: 5px;
+	width: 50%;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}
+
+.list-item .list-item-icon {
+	padding: 100px;
 }
 /*  */
 @media (max-width: 992px) {
@@ -27,11 +111,35 @@
 		left: 40%;
 	}
 
-	.about{
+	.about {
 		text-align: center;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
+	}
+
+	.aboutlistDivider {
+		border-top: 4px solid rgba(245, 166, 35, 1);
+		border-radius: 5px;
+		width: 100%;
+		margin-top: 3px;
+		margin-bottom: 5px;
+	}
+	.red-line {
+		z-index: 1;
+		width: 5px;
+		height: 210%;
+		position: absolute;
+		left: 12.5px;
+		background-color: #fbc361;
+		border-left: 5px;
+	}
+
+	.list-wrapper {
+		text-align: center;
+		display: block;
+	}
+
+	.container-fluid{
+		text-align: center;
+		display: block;
 	}
 }
