@@ -154,25 +154,14 @@ footer ul li a:hover {
 	/*  */
 
 	/* Header */
-	.header .underline-blue {
-		text-decoration: none;
-		position: relative;
+	.header {
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
 	}
-
-	.header .underline-blue:after {
-		position: absolute;
-		content: "";
-		height: 8px;
-		bottom: 11px;
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		width: 100%;
-		background: #f5a623;
-		z-index: -10;
-	}
-
-	.header .btn-email {
+	/* .header .btn-email {
 		position: relative;
 		left: 38%;
 	}
@@ -187,11 +176,17 @@ footer ul li a:hover {
 	.header .btn-github {
 		position: relative;
 		left: 45%;
-	}
+	} */
 
 	.header .card {
 		border-radius: 1rem;
 		box-shadow: -8px 8px 58px 0px rgba(0, 0, 0, 0.1);
+	}
+
+	.roundedDivider {
+		border-top: 6px solid rgba(245, 166, 35, 1);
+		border-radius: 5px;
+		margin-top: 150px;
 	}
 	/*  */
 }

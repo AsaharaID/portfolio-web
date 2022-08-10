@@ -16,8 +16,8 @@
 /* about item */
 .about .feature-card {
 	background-color: #1c0e02;
-	padding: 1.875rem;
 	border-radius: 1.625rem;
+	padding: 1.875rem;
 	margin-right: 16px;
 }
 /*  */
@@ -25,5 +25,13 @@
 	.aboutDivider {
 		width: 20%;
 		left: 40%;
+	}
+
+	.about{
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
 	}
 }

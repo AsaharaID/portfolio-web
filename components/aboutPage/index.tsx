@@ -10,7 +10,7 @@ export default function AboutPage() {
 					About
 				</h2>
 				<div className="aboutDivider" />
-				<div className="row gap-lg-0 gap-1" data-aos="fade-up">
+				<div className="row gap-lg-0 gap-1 mt-4" data-aos="fade-up">
 					<StepItem
 						title="1. Start"
 						desc1="Pilih salah satu game"
