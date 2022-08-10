@@ -3,7 +3,7 @@
 import Image from "next/image";
 export default function MainBanner() {
 	return (
-		<section className="header pt-lg-60 pb-60">
+		<section className="header pt-lg-100 pb-60" id="homepage">
 			<div className="container-xxl container-fluid" data-aos="fade-up">
 				<div className="row gap-lg-0 gap-1">
 					<div className="col-lg-6 col-12 my-auto">
@@ -11,7 +11,7 @@ export default function MainBanner() {
 						<h1 className="header-title color-palette-5 fw-bold">
 							Muhamad Syah Reza
 						</h1>
-						<p className="mt-0 mb-20 text-xl color-palette-6">
+						<p className="mt-0 mb-20 text-xl color-palette-6" >
 							Fresh graduate bachelor degree of informatics at Amikom Yogyakarta
 							University. I was specialized at front-end web developer and
 							front-end flutter developer. I am very interested in the IT world
