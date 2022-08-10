@@ -18,6 +18,7 @@ import "../styles/utilities.css";
 import "../styles/navbar.css";
 import "../styles/homepage.css";
 import "../styles/overview.css";
+import "../styles/aboutPage.css";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 

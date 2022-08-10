@@ -18,22 +18,44 @@ export default function MainBanner() {
 							and always learn when I find new things related to it.
 						</p>
 						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
-							<a className="btn-email text-sm" href="#" role="button">
+							<a
+								className="btn-email text-sm"
+								href="mailto: muhamadsyahr45@gmail.com"
+								role="button"
+							>
 								<Image src="/img/emailme.png" alt="" width={158} height={66} />
 							</a>
-							<a className="btn-linkedin text-sm" href="#" role="button">
+							<a
+								className="btn-linkedin text-sm"
+								href="https://www.linkedin.com/in/m-syah-reza"
+								target="_blank"
+								role="button"
+								rel="noreferrer"
+							>
 								<Image src="/img/linkedin.png" alt="" width={66} height={66} />
 							</a>
-							<a className="btn-instagram text-sm" href="#" role="button">
+							<a
+								className="btn-instagram text-sm"
+								href="https://www.instagram.com/muhamadsyahreza"
+								role="button"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<Image src="/img/instagram.png" alt="" width={66} height={66} />
 							</a>
-							<a className="btn-github text-sm" href="#" role="button">
+							<a
+								className="btn-github text-sm"
+								href="https://github.com/AsaharaID"
+								role="button"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<Image src="/img/githab.png" alt="" width={66} height={66} />
 							</a>
 						</div>
 						<div className="d-flex flex-lg-row flex-column gap-0 ">
 							<a
-								className="btn-learn text-lg color-palette-5 my-auto text-center"
+								className="btn-cv text-lg color-palette-5 my-auto text-center"
 								href="#"
 								role="button"
 							>

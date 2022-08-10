@@ -27,19 +27,61 @@
 	line-height: 1.5;
 }
 
-.header .btn-get {
-	background-color: #f5a623;
-	padding: 0.75rem 3rem;
+.header .btn-email {
+	transition: 0.3s;
 }
 
-.header .btn-learn:hover {
-	color: #f5a623;
+.header .btn-linkedin {
+	transition: 0.3s;
+}
+
+.header .btn-instagram {
+	transition: 0.3s;
+}
+
+.header .btn-github {
+	transition: 0.3s;
+}
+
+.header .btn-cv {
+	transition: 0.3s;
+}
+
+.header .btn-email:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.header .btn-linkedin:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.header .btn-instagram:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.header .btn-github:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.header .btn-cv:hover {
+	transition: 0.3s;
+	color: white;
+}
+
+.header .btn-cv img:hover {
+	transition: 0.3s;
+	color: white;
+	opacity: 0.5;
 }
 /*  */
 
 /* Deivider */
 .roundedDivider {
-	border-top: 8px solid rgba(245, 166, 35, 1);
+	border-top: 6px solid rgba(245, 166, 35, 1);
 	border-radius: 5px;
 	margin-top: 150px;
 }
@@ -103,7 +145,7 @@ footer ul li a:hover {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 	/* Navbar */
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 1.25rem;
@@ -128,6 +170,23 @@ footer ul li a:hover {
 		width: 100%;
 		background: #f5a623;
 		z-index: -10;
+	}
+
+	.header .btn-email {
+		position: relative;
+		left: 38%;
+	}
+	.header .btn-linkedin {
+		position: relative;
+		left: 45%;
+	}
+	.header .btn-instagram {
+		position: relative;
+		left: 45%;
+	}
+	.header .btn-github {
+		position: relative;
+		left: 45%;
 	}
 	/*  */
 
