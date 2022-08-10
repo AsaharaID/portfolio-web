@@ -53,6 +53,7 @@ export default function MainBanner() {
 						</div>
 					</div>
 				</div>
+				<div className="roundedDivider" />
 			</div>
 		</section>
 	);

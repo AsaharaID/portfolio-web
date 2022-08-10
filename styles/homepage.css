@@ -37,86 +37,12 @@
 }
 /*  */
 
-/* Feature */
-.feature .feature-card {
-	background-color: #f9faff;
-	padding: 1.875rem;
-	border-radius: 1.625rem;
-	margin-right: 16px;
+/* Deivider */
+.roundedDivider {
+	border-top: 8px solid rgba(245, 166, 35, 1);
+	border-radius: 5px;
+	margin-top: 150px;
 }
-/*  */
-
-/* Featured Game */
-.featured-game .overflow-setting {
-	overflow-x: auto;
-	overflow-y: hidden;
-}
-
-.featured-game .featured-game-card {
-	transition: all 0.4s;
-	border-radius: 1.625rem;
-	width: 205px;
-	height: 270px;
-}
-
-.featured-game .featured-game-card:hover {
-	transition: all 0.4s;
-	border: 4px solid #2b2467;
-}
-
-.featured-game .featured-game-card:hover img.thumbnail {
-	transition: all 0.4s;
-	filter: blur(40px);
-	width: 181px;
-	height: 246px;
-}
-
-.featured-game .featured-game-card .blur-sharp {
-	overflow: hidden;
-	border-radius: 1.625rem;
-}
-.featured-game .featured-game-card:hover .blur-sharp {
-	width: 192px;
-	border: 7px solid white;
-}
-
-.featured-game .cover {
-	transition: all 0.4s;
-	opacity: 0;
-	left: 0;
-	right: 0;
-	height: -webkit-fill-available;
-}
-
-.featured-game .featured-game-card:hover .cover {
-	opacity: 1;
-}
-
-.featured-game .game-icon {
-	margin-top: 3.125rem;
-}
-
-@media (min-width: 768px) {
-	.featured-game .overflow-setting {
-		overflow: hidden;
-	}
-}
-
-/*  */
-
-/* Reached */
-.reached .vertical-line {
-	width: 1px;
-	background-color: #e7eaf5;
-	height: 94px;
-}
-
-.reached .horizontal-line {
-	width: 240px;
-	background-color: #e7eaf5;
-	height: 1px;
-}
-/*  */
 
 /* Story */
 .story .btn-read {
