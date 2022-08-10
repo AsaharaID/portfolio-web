@@ -13,9 +13,17 @@
 	position: absolute;
 }
 
+/* about item */
+.about .feature-card {
+	background-color: #1c0e02;
+	padding: 1.875rem;
+	border-radius: 1.625rem;
+	margin-right: 16px;
+}
+/*  */
 @media (max-width: 992px) {
 	.aboutDivider {
 		width: 20%;
-        left: 40%;
+		left: 40%;
 	}
 }

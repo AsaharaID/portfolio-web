@@ -1,5 +1,6 @@
 /** @format */
 
+import StepItem from "./stepItem";
 
 export default function AboutPage() {
 	return (
@@ -7,8 +8,25 @@ export default function AboutPage() {
 			<div className="container-fluid">
 				<h2 className="text-4xl fw-bold color-palette-6 text-center mb-0">
 					About
-                </h2>
-                <div className="aboutDivider"/>
+				</h2>
+				<div className="aboutDivider" />
+				<div className="row gap-lg-0 gap-1" data-aos="fade-up">
+					<StepItem
+						title="1. Start"
+						desc1="Pilih salah satu game"
+						desc2="yang ingin kamu top up"
+					/>
+					<StepItem
+						title="2. Fill Up"
+						desc1="Top up sesuai dengan"
+						desc2="nominal yang sudah tersedia"
+					/>
+					<StepItem
+						title="3. Be a Winner"
+						desc1="Siap digunakan untuk"
+						desc2="improve permainan kamu"
+					/>
+				</div>
 			</div>
 		</section>
 	);

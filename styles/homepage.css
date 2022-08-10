@@ -188,15 +188,12 @@ footer ul li a:hover {
 		position: relative;
 		left: 45%;
 	}
-	/*  */
 
-	/* Featured Game */
-	.featured-game .featured-game-card:hover .blur-sharp {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+	.header .card {
+		border-radius: 1rem;
+		box-shadow: -8px 8px 58px 0px rgba(0, 0, 0, 0.1);
 	}
+	/*  */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
