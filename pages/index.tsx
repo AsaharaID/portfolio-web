@@ -6,6 +6,7 @@ import Navbar from "../components/navbar";
 import MainBanner from "../components/MainBanner";
 import AboutPage from "../components/aboutPage";
 import ProjectsPage from "../components/projectsPage";
+import CertificatePage from "../components/certificatePage";
 
 export default function Home() {
 	useEffect(() => {
@@ -17,9 +18,7 @@ export default function Home() {
 			<MainBanner />
 			<AboutPage />
 			<ProjectsPage />
-			{/* <Reached />
-			<Story />
-			<Footer /> */}
+			<CertificatePage />
 		</>
 	);
 }

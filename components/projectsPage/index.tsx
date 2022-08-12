@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProjectsPage() {
 	return (
-		<section id="projectsPage" className="about pt-10 pb-10" data-aos="fade-up">
+		<section id="projectsPage" className="projectsPage pb-10">
 			<div className="container-xxl container-fluid">
 				<h2 className="text-4xl fw-bold color-palette-6 text-center mb-0">
 					Projects
@@ -52,6 +52,7 @@ export default function ProjectsPage() {
 						/>
 					</div>
 				</div>
+				<div className="roundedDivider" data-aos="fade-up" />
 			</div>
 		</section>
 	);

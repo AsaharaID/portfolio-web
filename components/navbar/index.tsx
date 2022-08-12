@@ -13,8 +13,8 @@ export default function Navbar() {
 						<ul className="navbar-nav text-lg gap-lg-0 gap-2">
 							<Menu title="Home" href="/#homepage" />
 							<Menu title="About" href="/#aboutPage" />
-							<Menu title="Projects" href="/#projectsPage" />
-							<Menu title="Certificate" href="/#certificatePage" />
+							<Menu title="Projects" href="#projectsPage" />
+							<Menu title="Certificate" href="#certificatePage" />
 						</ul>
 					</div>
 				</div>

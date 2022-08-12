@@ -2,7 +2,7 @@
 import Image from "next/image";
 export default function AboutPage() {
 	return (
-		<section id="aboutPage" className="about" data-aos="fade-up">
+		<section id="aboutPage" className="about">
 			<div className="container-xxl container-fluid">
 				<h2 className="text-4xl fw-bold color-palette-6 text-center mb-0">
 					About
@@ -162,7 +162,7 @@ export default function AboutPage() {
 							</div>
 						</div>
 					</div>
-					<div className="roundedDivider" data-aos="fade-up"/>
+					<div className="roundedDivider" data-aos="fade-up" />
 				</div>
 			</div>
 		</section>
