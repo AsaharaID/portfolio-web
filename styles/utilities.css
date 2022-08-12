@@ -178,6 +178,12 @@
 .mt-30 {
 	margin-top: 1.875rem;
 }
+.mt-60 {
+	margin-top: 3rem;
+}
+.mt-120 {
+	margin-top: 6rem;
+}
 
 .mt-10 {
 	padding-top: 0.625rem;

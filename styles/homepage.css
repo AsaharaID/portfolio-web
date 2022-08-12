@@ -83,7 +83,7 @@
 .roundedDivider {
 	border-top: 3px solid rgba(245, 166, 35, 1);
 	border-radius: 5px;
-	margin-top: 150px;
+	margin-top: 200px;
 }
 
 /* Story */
@@ -161,6 +161,7 @@ footer ul li a:hover {
 		margin-right: auto;
 		width: 40%;
 		padding-top: 100px;
+		margin-bottom: 100px;
 	}
 	/* .header .btn-email {
 		position: relative;

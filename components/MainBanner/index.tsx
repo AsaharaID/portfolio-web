@@ -3,21 +3,24 @@
 import Image from "next/image";
 export default function MainBanner() {
 	return (
-		<section className="header pt-lg-100 pb-60" id="homepage">
-			<div className="container-xxl container-fluid" data-aos="fade-up">
+		<section className="header pt-lg-100 pb-60 mb-25" id="homepage">
+			<div className="container-xxl container-fluid">
 				<div className="row gap-lg-0 gap-1">
 					<div className="col-lg-6 col-12 my-auto">
 						<p className="text-support text-3xl color-palette-6">Hello, I Am</p>
 						<h1 className="header-title color-palette-5 fw-bold">
 							Muhamad Syah Reza
 						</h1>
-						<p className="mt-0 mb-20 text-xl color-palette-6" >
+						<p className="mt-0 mb-20 text-xl color-palette-6">
 							Fresh graduate bachelor degree of informatics at Amikom Yogyakarta
 							University. I was specialized at front-end web developer and
 							front-end flutter developer. I am very interested in the IT world
 							and always learn when I find new things related to it.
 						</p>
-						<div className="d-flex flex-lg-row flex-column pb-4 gap-5">
+						<div
+							className="d-flex flex-lg-row flex-column pb-4 gap-5"
+							data-aos="fade-up"
+						>
 							<a
 								className="btn-email text-sm"
 								href="mailto: muhamadsyahr45@gmail.com"
@@ -53,7 +56,10 @@ export default function MainBanner() {
 								<Image src="/img/githab.png" alt="" width={66} height={66} />
 							</a>
 						</div>
-						<div className="d-flex flex-lg-row flex-column gap-0 ">
+						<div
+							className="d-flex flex-lg-row flex-column gap-0 "
+							data-aos="fade-up"
+						>
 							<a
 								className="btn-cv text-lg color-palette-5 my-auto text-center"
 								href="#"
@@ -75,7 +81,7 @@ export default function MainBanner() {
 						</div>
 					</div>
 				</div>
-				<div className="roundedDivider" />
+				<div className="roundedDivider" data-aos="fade-up" />
 			</div>
 		</section>
 	);
