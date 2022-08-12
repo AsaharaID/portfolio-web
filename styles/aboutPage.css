@@ -104,6 +104,10 @@
 .list-item .list-item-icon {
 	padding: 100px;
 }
+
+.list-item .list-item-icon-react {
+	padding: 10px;
+}
 /*  */
 @media (max-width: 992px) {
 	.aboutDivider {

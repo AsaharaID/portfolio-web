@@ -117,8 +117,9 @@ export default function AboutPage() {
 											width={80}
 											height={80}
 										/>
+
 										<Image
-											className="list-item-icon"
+											className="pe-2"
 											src="/img/Nodejs.png"
 											alt=""
 											width={80}
