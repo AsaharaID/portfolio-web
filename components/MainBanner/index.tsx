@@ -81,7 +81,7 @@ export default function MainBanner() {
 						</div>
 					</div>
 				</div>
-				<div className="roundedDivider" data-aos="fade-up" />
+				<div className="roundedDivider" />
 			</div>
 		</section>
 	);

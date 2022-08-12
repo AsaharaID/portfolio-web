@@ -7,6 +7,7 @@ import MainBanner from "../components/MainBanner";
 import AboutPage from "../components/aboutPage";
 import ProjectsPage from "../components/projectsPage";
 import CertificatePage from "../components/certificatePage";
+import Footer from "../components/footer";
 
 export default function Home() {
 	useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
 			<AboutPage />
 			<ProjectsPage />
 			<CertificatePage />
+			<Footer />
 		</>
 	);
 }

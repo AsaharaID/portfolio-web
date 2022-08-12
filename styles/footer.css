@@ -1,0 +1,13 @@
+/** @format */
+
+.footer {
+	justify-content: center;
+	align-items: center;
+	background-color: #fbc361;
+	color: #fbc361;
+    padding: 40px;
+}
+
+.footer .footer-text {
+	background-color: #fbc361;
+}

@@ -21,6 +21,7 @@ import "../styles/overview.css";
 import "../styles/aboutPage.css";
 import "../styles/projectsPage.css";
 import "../styles/certificatePage.css";
+import "../styles/footer.css";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 
