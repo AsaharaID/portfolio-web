@@ -1,9 +1,13 @@
 /** @format */
 
+import Head from "next/head";
 import Image from "next/image";
 export default function MainBanner() {
 	return (
 		<section className="header pt-lg-100 pb-60 mb-25" id="homepage">
+			<Head>
+				<title>Portfolio Muhamad Syah Reza</title>
+			</Head>
 			<div className="container-xxl container-fluid">
 				<div className="row gap-lg-0 gap-1">
 					<div className="col-lg-6 col-12 my-auto">
