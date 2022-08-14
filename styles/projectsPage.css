@@ -1,4 +1,11 @@
-.projectsPage{
-    padding-top: 100px;
-    margin-top: 10px;
+/** @format */
+
+.projectsPage {
+	padding-top: 100px;
+	margin-top: 10px;
+}
+
+.projectsPage .projImage:hover {
+	opacity: 0.5;
+	transition: 0.3s;
 }
