@@ -66,8 +66,10 @@ export default function MainBanner() {
 						>
 							<a
 								className="btn-cv text-lg color-palette-5 my-auto text-center"
-								href="#"
+								href="https://drive.google.com/file/d/1ZijSAl6YqjeNeOrFMHHgSj5lCyjcWrx1/view?usp=sharing"
 								role="button"
+								target="_blank"
+								rel="noreferrer"
 							>
 								<img src="/img/download.png" alt="" /> Download CV
 							</a>
