@@ -52,7 +52,7 @@ export default function MainBanner() {
 							</a>
 							<a
 								className="btn-github text-sm"
-								href="https://github.com/AsaharaID"
+								href="https://github.com/msyahreza"
 								role="button"
 								target="_blank"
 								rel="noreferrer"
