@@ -76,10 +76,10 @@ export default function MainBanner() {
 						</div>
 					</div>
 					<div className="col-lg-6 col-12	 d-lg-block d-none">
-						<div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
+						<div className="d-flex justify-content-lg-end justify-content-center me-lg-6">
 							<div className="position-relative" data-aos="zoom-in">
 								<img
-									src="/img/Archetto.jpg"
+									src="/img/fotoprofil.jpg"
 									className="mainbanner-img"
 									alt=""
 								/>
