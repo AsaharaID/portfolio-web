@@ -4,14 +4,14 @@ export default function AboutPage() {
 	return (
 		<section id="aboutPage" className="about">
 			<div className="container-xxl container-fluid">
-				<h2 className="text-4xl fw-bold color-palette-6 text-center mb-0">
+				<h2 className="text-4xl fw-bold color-palette-5 text-center mb-0">
 					About
 				</h2>
 				<div className="aboutDivider" />
 				<div className="row gap-lg-0 gap-4 mt-4" data-aos="fade-up">
 					<div className="col-lg-4 me-0">
 						<div className="card feature-card border-0">
-							<p className="fw-semibold text-4xl mb-2 color-palette-6">
+							<p className="fw-semibold text-4xl mb-2 color-palette-5">
 								Educations
 							</p>
 							<div className="aboutlistDivider" />
@@ -52,11 +52,31 @@ export default function AboutPage() {
 					</div>
 					<div className="col-lg-4 me-0">
 						<div className="card feature-card border-0">
-							<p className="fw-semibold text-4xl mb-2 color-palette-6">
+							<p className="fw-semibold text-4xl mb-2 color-palette-5">
 								Experience
 							</p>
 							<div className="aboutlistDivider" />
 							<div className="list-wrapper">
+								<div className="list-item-wrapper mb-4">
+									<div className="list-item">
+										<div className="list-year text-xl">Apr - Present 2023</div>
+										<div className="list-title text-xl">
+											Web Developer (.NET)
+										</div>
+										<div className="list-text text-lg">
+											PT. Tri Sapta Jaya (Kalbe Group)
+										</div>
+									</div>
+								</div>
+								<div className="list-item-wrapper mb-4">
+									<div className="list-item">
+										<div className="list-year text-xl">Oct - Apr 2023</div>
+										<div className="list-title text-xl">Oracle Developer</div>
+										<div className="list-text text-lg">
+											PT. Tri Sapta Jaya (Kalbe Group)
+										</div>
+									</div>
+								</div>
 								<div className="list-item-wrapper mb-4">
 									<div className="list-item">
 										<div className="list-year text-xl">April - July 2021</div>
@@ -73,7 +93,7 @@ export default function AboutPage() {
 					</div>
 					<div className="col-lg-4 me-0">
 						<div className="card feature-card border-0">
-							<p className="fw-semibold text-4xl mb-2 color-palette-6">
+							<p className="fw-semibold text-4xl mb-2 color-palette-5">
 								Tools & Skills
 							</p>
 							<div className="aboutlistDivider" />
@@ -156,6 +176,22 @@ export default function AboutPage() {
 											alt=""
 											width={121}
 											height={72}
+										/>
+										<br />
+										<Image
+											className="list-item-icon"
+											src="/img/net-logo.png"
+											alt=""
+											width={80}
+											height={80}
+										/>
+
+										<Image
+											className="list-item-icon"
+											src="/img/csharp-logo.png"
+											alt=""
+											width={80}
+											height={80}
 										/>
 									</div>
 								</div>

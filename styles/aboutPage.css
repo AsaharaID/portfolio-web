@@ -17,7 +17,7 @@
 }
 
 .aboutDivider {
-	border-top: 3px solid rgba(245, 166, 35, 1);
+	border-top: 3px solid #87a9aa;
 	border-radius: 5px;
 	left: 46%;
 	width: 8%;
@@ -34,7 +34,7 @@
 .list-bullet {
 	float: left;
 	margin-right: 20px;
-	background: #fbc361;
+	background: #87a9aa;
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
@@ -47,7 +47,7 @@
 .list-bullet-main {
 	float: left;
 	margin-right: 20px;
-	background: #fbc361;
+	background: #87a9aa;
 	border: 5px solid rgb(255, 255, 255);
 	height: 30px;
 	width: 30px;
@@ -70,7 +70,7 @@
 }
 .list-text {
 	font-weight: 400;
-	color: #fbc361;
+	color: #3F4F4F;
 }
 .red-line {
 	z-index: 1;
@@ -78,13 +78,13 @@
 	height: 217%;
 	position: absolute;
 	left: 12.5px;
-	background-color: #fbc361;
+	background-color: #87a9aa;
 	border-left: 5px;
 }
 
 /* about item */
 .about .feature-card {
-	background-color: #1c0e02;
+	background-color: #DED6C9;
 	border-radius: 1.625rem;
 	padding: 2rem;
 	align-content: center;
@@ -94,7 +94,7 @@
 }
 
 .aboutlistDivider {
-	border-top: 4px solid rgba(245, 166, 35, 1);
+	border-top: 4px solid #87a9aa;
 	border-radius: 5px;
 	width: 50%;
 	margin-top: 3px;
@@ -121,7 +121,7 @@
 	}
 
 	.aboutlistDivider {
-		border-top: 4px solid rgba(245, 166, 35, 1);
+		border-top: 4px solid #87a9aa;
 		border-radius: 5px;
 		width: 100%;
 		margin-top: 3px;
@@ -133,7 +133,7 @@
 		height: 210%;
 		position: absolute;
 		left: 12.5px;
-		background-color: #fbc361;
+		background-color: #87a9aa;
 		border-left: 5px;
 	}
 

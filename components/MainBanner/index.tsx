@@ -16,10 +16,10 @@ export default function MainBanner() {
 							Muhamad Syah Reza
 						</h1>
 						<p className="mt-0 mb-20 text-xl color-palette-6">
-							Fresh graduate bachelor degree of informatics at Amikom Yogyakarta
+							Bachelor degree of informatics at Amikom Yogyakarta
 							University. I was specialized at front-end web developer and
-							front-end flutter developer. I am very interested in the IT world
-							and always learn when I find new things related to it.
+							front-end flutter developer. Now i work as Web Developer using C#(ASP.NET MVC)
+							I am very interested in the IT world and always learn when I find new things related to it.
 						</p>
 						<div
 							className="d-flex flex-lg-row flex-column pb-4 gap-5"
@@ -30,7 +30,12 @@ export default function MainBanner() {
 								href="mailto: muhamadsyahr45@gmail.com"
 								role="button"
 							>
-								<Image src="/img/emailme.png" alt="" width={158} height={66} />
+								<Image
+									src="/img/email-new.png"
+									alt=""
+									width={158}
+									height={66}
+								/>
 							</a>
 							<a
 								className="btn-linkedin text-sm"
@@ -39,7 +44,12 @@ export default function MainBanner() {
 								role="button"
 								rel="noreferrer"
 							>
-								<Image src="/img/linkedin.png" alt="" width={66} height={66} />
+								<Image
+									src="/img/linkedin-new.png"
+									alt=""
+									width={66}
+									height={66}
+								/>
 							</a>
 							<a
 								className="btn-instagram text-sm"
@@ -48,7 +58,12 @@ export default function MainBanner() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<Image src="/img/instagram.png" alt="" width={66} height={66} />
+								<Image
+									src="/img/instagram-new.png"
+									alt=""
+									width={66}
+									height={66}
+								/>
 							</a>
 							<a
 								className="btn-github text-sm"
@@ -57,7 +72,12 @@ export default function MainBanner() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<Image src="/img/githab.png" alt="" width={66} height={66} />
+								<Image
+									src="/img/githab-new.png"
+									alt=""
+									width={66}
+									height={66}
+								/>
 							</a>
 						</div>
 						<div
@@ -71,7 +91,13 @@ export default function MainBanner() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<img src="/img/download.png" alt="" /> Download CV
+								<Image
+									src="/img/download-new.png"
+									alt=""
+									width={19}
+									height={22}
+								/>{" "}
+								Download CV
 							</a>
 						</div>
 					</div>

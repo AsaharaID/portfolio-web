@@ -12,7 +12,7 @@ export default function ProjectsPage() {
 	return (
 		<section id="projectsPage" className="projectsPage pb-10">
 			<div className="container-xxl container-fluid">
-				<h2 className="text-4xl fw-bold color-palette-6 text-center mb-0">
+				<h2 className="text-4xl fw-bold color-palette-5 text-center mb-0">
 					Projects
 				</h2>
 				<div className="aboutDivider" />
