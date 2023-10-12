@@ -53,7 +53,7 @@ export default function AboutPage() {
 					<div className="col-lg-4 me-0">
 						<div className="card feature-card border-0">
 							<p className="fw-semibold text-4xl mb-2 color-palette-5">
-								Experience
+								Experiences
 							</p>
 							<div className="aboutlistDivider" />
 							<div className="list-wrapper">
